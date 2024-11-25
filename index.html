@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <div class="general">
+        <span class="numero" id="contador">0</span>
+    </div>
+
+<script>
+
+    let btn1= document.querySelector('#contador');
+    let contador = document.querySelector("#contador");
+
+     let a=0;
+
+
+    
+        
+        
+    function printclick()
+    {
+        a++;
+        console.log(a);
+        contador.innerHTML= a ;
+        
+    }
+    btn1.addEventListener('click', printclick);
+
+</script>
+
+</body>
+</html>
